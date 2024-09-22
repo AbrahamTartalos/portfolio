@@ -2,26 +2,38 @@ body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #181818; /* Dark grey background */
-  color: #f5f5f5; /* Light grey text */
+  background-color: #181818;
+  /* Dark grey background */
+  color: #f5f5f5;
+  /* Light grey text */
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-image: url("https://www.transparenttextures.com/patterns/subtle-carbon-fibre.png"); /* Subtle carbon fiber pattern */
-  background-size: 50px; /* Adjust pattern size as needed */
-  background-repeat: repeat; /* Repeat the pattern across the page */
+  background-image: url("https://www.transparenttextures.com/patterns/subtle-carbon-fibre.png");
+  /* Subtle carbon fiber pattern */
+  background-size: 50px;
+  /* Adjust pattern size as needed */
+  background-repeat: repeat;
+  /* Repeat the pattern across the page */
 }
 
 header {
-  background: linear-gradient(to right, #222, #111); /* Dark gradient header */
-  color: #f5f5f5; /* Light grey text */
+  background: linear-gradient(to right, #222, #111);
+  /* Dark gradient header */
+  color: #f5f5f5;
+  /* Light grey text */
   padding: 2rem 0;
   text-align: center;
-  width: 100vw; /* Full width */
-  height: 100vh; /* Full height */
-  margin: 0; /* No margins */
-  background-image: url("https://media.istockphoto.com/id/1627833870/es/foto/vector-3d-abstract-particle-line-technology-poster-background.jpg?s=612x612&w=is&k=20&c=hHHjMMhq0kqlNJycM4OpBkYcTCHgv4S67RX3SpwpYBQ="); /* Example background image */
-  background-size: cover; /* Resize image to fit header */
+  width: 100vw;
+  /* Full width */
+  height: 100vh;
+  /* Full height */
+  margin: 0;
+  /* No margins */
+  background-image: url("https://media.istockphoto.com/id/1627833870/es/foto/vector-3d-abstract-particle-line-technology-poster-background.jpg?s=612x612&w=is&k=20&c=hHHjMMhq0kqlNJycM4OpBkYcTCHgv4S67RX3SpwpYBQ=");
+  /* Example background image */
+  background-size: cover;
+  /* Resize image to fit header */
 }
 
 .container {
@@ -33,26 +45,32 @@ header {
 h1 {
   font-size: 3rem;
   margin: 0;
-  font-weight: 700; /* Bold heading */
-  color: #008080; /* Teal accent color for heading */
+  font-weight: 700;
+  /* Bold heading */
+  color: #008080;
+  /* Teal accent color for heading */
 }
 
 h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
-  font-weight: 600; /* Slightly bold subheadings */
-  color: #008080; /* Teal accent color for subheadings */
+  font-weight: 600;
+  /* Slightly bold subheadings */
+  color: #008080;
+  /* Teal accent color for subheadings */
 }
 
 p {
   font-size: 1.2rem;
   line-height: 1.5;
   margin-bottom: 1rem;
-  color: #f5f5f5; /* Light grey text */
+  color: #f5f5f5;
+  /* Light grey text */
 }
 
 a {
-  color: #008080; /* Teal accent color for links */
+  color: #008080;
+  /* Teal accent color for links */
   text-decoration: none;
 }
 
@@ -75,7 +93,8 @@ section {
 }
 
 #featured-projects {
-  background: linear-gradient(to bottom, #282828, #222); /* Darker gradient */
+  background: linear-gradient(to bottom, #282828, #222);
+  /* Darker gradient */
 }
 
 #technical-skills {
@@ -105,8 +124,10 @@ section {
 }
 
 .language-switch button {
-  background-color: #282828; /* Dark grey button background */
-  color: #f5f5f5; /* Light grey text */
+  background-color: #282828;
+  /* Dark grey button background */
+  color: #f5f5f5;
+  /* Light grey text */
   border: none;
   padding: 0.5rem 1rem;
   margin: 0 0.5rem;
@@ -116,8 +137,10 @@ section {
 }
 
 .language-switch button.active {
-  background-color: #008080; /* Teal accent color for active button */
-  color: #f5f5f5; /* Light grey text */
+  background-color: #008080;
+  /* Teal accent color for active button */
+  color: #f5f5f5;
+  /* Light grey text */
 }
 
 #featured-projects .project {
@@ -127,19 +150,23 @@ section {
   margin-bottom: 2rem;
   padding: 1rem;
   border-radius: 8px;
-  background-color: #222; /* Dark background for project card */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  background-color: #222;
+  /* Dark background for project card */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  /* Subtle shadow for depth */
 }
 
 #featured-projects .project h3 {
   margin-bottom: 0.5rem;
-  color: #008080; /* Teal accent color for project titles */
+  color: #008080;
+  /* Teal accent color for project titles */
 }
 
 #featured-projects .project p {
   text-align: left;
   margin-bottom: 1rem;
-  color: #f5f5f5; /* Light grey text */
+  color: #f5f5f5;
+  /* Light grey text */
 }
 
 #technical-skills ul {
@@ -154,22 +181,29 @@ section {
 #technical-skills li {
   margin: 0.5rem;
   padding: 0.5rem 1rem;
-  background-color: #333; /* Darker grey for skill tags */
+  background-color: #333;
+  /* Darker grey for skill tags */
   border-radius: 4px;
-  color: #008080; /* Teal accent color for skill tags */
+  color: #008080;
+  /* Teal accent color for skill tags */
   display: flex;
-  align-items: center; /* Align icon and text vertically */
+  align-items: center;
+  /* Align icon and text vertically */
 }
 
-#technical-skills li i { /* Style for icons */
+#technical-skills li i {
+  /* Style for icons */
   margin-right: 0.5rem;
   font-size: 1.2rem;
-  color: #008080; /* Teal icon color */
+  color: #008080;
+  /* Teal icon color */
 }
 
 footer {
-  background-color: #181818; /* Dark grey footer */
-  color: #f5f5f5; /* Light grey text */
+  background-color: #181818;
+  /* Dark grey footer */
+  color: #f5f5f5;
+  /* Light grey text */
   padding: 1rem 0;
   text-align: center;
 }
@@ -195,40 +229,54 @@ footer {
     flex-direction: column;
   }
 }
+
 @media (max-width: 768px) {
   header {
-    background-size: cover; /* Make sure the image covers the header on mobile */
+    background-size: cover;
+    /* Make sure the image covers the header on mobile */
   }
 }
 
-#technical-skills li:nth-child(1) i { /* Python */
+#technical-skills li:nth-child(1) i {
+  /* Python */
   font-family: 'Font Awesome 5 Free';
-  content: '\f1ce'; /* Python icon from Font Awesome */
+  content: '\f1ce';
+  /* Python icon from Font Awesome */
 }
 
-#technical-skills li:nth-child(2) i { /* Pandas */
+#technical-skills li:nth-child(2) i {
+  /* Pandas */
   font-family: 'Font Awesome 5 Free';
-  content: '\f080'; /* Chart Bar icon from Font Awesome */
+  content: '\f080';
+  /* Chart Bar icon from Font Awesome */
 }
 
-#technical-skills li:nth-child(3) i { /* NumPy */
+#technical-skills li:nth-child(3) i {
+  /* NumPy */
   font-family: 'Font Awesome 5 Free';
-  content: '\f1ec'; /* Calculator icon from Font Awesome */
+  content: '\f1ec';
+  /* Calculator icon from Font Awesome */
 }
 
-#technical-skills li:nth-child(4) i { /* Matplotlib */
+#technical-skills li:nth-child(4) i {
+  /* Matplotlib */
   font-family: 'Font Awesome 5 Free';
-  content: '\f0c1'; /* Chart Line icon from Font Awesome */
+  content: '\f0c1';
+  /* Chart Line icon from Font Awesome */
 }
 
-#technical-skills li:nth-child(5) i { /* Data Handling */
+#technical-skills li:nth-child(5) i {
+  /* Data Handling */
   font-family: 'Font Awesome 5 Free';
-  content: '\f0c0'; /* Database icon from Font Awesome */
+  content: '\f0c0';
+  /* Database icon from Font Awesome */
 }
 
-#technical-skills li:nth-child(6) i { /* Exploratory Data Analysis */
+#technical-skills li:nth-child(6) i {
+  /* Exploratory Data Analysis */
   font-family: 'Font Awesome 5 Free';
-  content: '\f002'; /* Search icon from Font Awesome */
+  content: '\f002';
+  /* Search icon from Font Awesome */
 }
 
 .social-links {
@@ -236,26 +284,81 @@ footer {
   padding: 0;
   margin: 0;
   display: flex;
-  justify-content: center; /* Center the icons */
-  gap: 5.5rem; /* Add spacing between icons */
+  justify-content: center;
+  /* Center the icons */
+  gap: 5.5rem;
+  /* Add spacing between icons */
 }
 
 .social-links li {
-  display: inline-block; /* Allow icons to be next to each other */
+  display: inline-block;
+  /* Allow icons to be next to each other */
 }
 
 .social-links a {
-  color: #008080; /* Teal accent color for links */
+  color: #008080;
+  /* Teal accent color for links */
   text-decoration: none;
-  font-size: 1.5rem; /* Increase icon size */
+  font-size: 1.5rem;
+  /* Increase icon size */
 }
 
 .social-links a:hover {
-  color: #FF6347; /* Orange accent color for links on hover */
+  color: #FF6347;
+  /* Orange accent color for links on hover */
 }
 
 .language-switch button.active {
-  background-color: #FF6347; /* Orange accent color for active button */
-  color: #f5f5f5; /* Light grey text */
+  background-color: #FF6347;
+  /* Orange accent color for active button */
+  color: #f5f5f5;
+  /* Light grey text */
 }
 
+.project-image {
+  width: 100%;
+  height: 200px;
+  /* Adjust height as needed */
+  overflow: hidden;
+  /* Hide any overflow */
+  margin-bottom: 1rem;
+}
+
+.project-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  /* Prevents extra space below the image */
+}
+
+.project-technologies {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  /* Allow technologies to wrap if needed */
+  justify-content: center;
+  /* Center the icons horizontally */
+}
+
+.project-technologies ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.project-technologies li {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  background-color: #333;
+  border-radius: 4px;
+  color: #008080;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  /* Adjust icon size as needed */
+}
+
+.project-technologies li i {
+  margin-right: 0.5rem;
+  color: #008080;
+}
